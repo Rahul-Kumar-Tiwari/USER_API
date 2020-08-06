@@ -1,6 +1,3 @@
-from django.db import models
-
-# Create your models here.
 import uuid
 from django.db import models
 from API_USER.models import User
@@ -14,11 +11,11 @@ class UserProfile(models.Model):
     last_name = models.CharField(max_length=50, unique=False)
     phone_number = models.CharField(max_length=10, unique=True, null=False, blank=False)
     age = models.PositiveIntegerField(null=False, blank=False)
-    GENDER_CHOICES = (
-        ('M', 'Male'),
-        ('F', 'Female'),
+    USER_CHOICES = (
+        ('T', 'Teacher'),
+        ('S', 'Student'),
     )
-    gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
+    user_type = models.CharField(max_length=1, choices=USER_CHOICES)
 
     class Meta:
         '''

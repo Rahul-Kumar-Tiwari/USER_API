@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -123,7 +122,7 @@ REST_FRAMEWORK = {
 }
 
 
-AUTH_USER_MODEL = 'user.User'
+AUTH_USER_MODEL = 'API_USER.User'
 JWT_AUTH = {
     'JWT_ENCODE_HANDLER':
     'rest_framework_jwt.utils.jwt_encode_handler',
