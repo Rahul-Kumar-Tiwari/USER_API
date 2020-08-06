@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34f505f-ec0c-4abb-9cb8-86aa89c1e17e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API_USER/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_PROFILE/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_PROFILE/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User_API/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_API/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User_API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_API/urls.py" afterDir="false" />
     </list>
@@ -22,44 +22,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/User_API/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API_USER/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+            <state relative-caret-position="110">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_USER/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_USER/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User_API/urls.py">
+        <entry file="file://$PROJECT_DIR$/API_USER/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret lean-forward="true" />
               <folding>
-                <element signature="e#632#664#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_USER/views.py">
+        <entry file="file://$PROJECT_DIR$/API_USER/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="215">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_USER/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API_PROFILE/models.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -94,9 +96,13 @@
       <list>
         <option value="$PROJECT_DIR$/API/views.py" />
         <option value="$PROJECT_DIR$/API/urls.py" />
-        <option value="$PROJECT_DIR$/API_USER/views.py" />
-        <option value="$PROJECT_DIR$/User_API/urls.py" />
         <option value="$PROJECT_DIR$/User_API/settings.py" />
+        <option value="$PROJECT_DIR$/User_API/urls.py" />
+        <option value="$PROJECT_DIR$/API_USER/views.py" />
+        <option value="$PROJECT_DIR$/API_USER/urls.py" />
+        <option value="$PROJECT_DIR$/API_USER/serializers.py" />
+        <option value="$PROJECT_DIR$/API_PROFILE/models.py" />
+        <option value="$PROJECT_DIR$/API_USER/models.py" />
       </list>
     </option>
   </component>
@@ -123,6 +129,16 @@
             <path>
               <item name="User_API" type="b2602c69:ProjectViewProjectNode" />
               <item name="User_API" type="462c0819:PsiDirectoryNode" />
+              <item name="API_PROFILE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="User_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="User_API" type="462c0819:PsiDirectoryNode" />
+              <item name="API_USER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="User_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="User_API" type="462c0819:PsiDirectoryNode" />
               <item name="User_API" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -133,7 +149,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/django-rest-app-master" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -162,10 +178,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119791664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,45 +202,88 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/API_USER/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_USER/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_USER/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_USER/views.py">
+    <entry file="file://$PROJECT_DIR$/User_API/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/User_API/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User_API/settings.py">
+    <entry file="file://$PROJECT_DIR$/API_PROFILE/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_PROFILE/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_USER/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_PROFILE/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
