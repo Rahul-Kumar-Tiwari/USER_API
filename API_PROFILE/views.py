@@ -26,8 +26,18 @@ class UserProfileView(RetrieveAPIView):
                     'phone_number': user_profile.phone_number,
                     'age': user_profile.age,
                     'user_type': user_profile.user_type,
-                    }]
-                }
+                }]
+            }
+            if user_profile.user_type=="Teacher" or user_profile.user_type=="teacher":
+                Student_profile=UserProfile.objects.filter(user_type='Student').values()
+                for student in Student_profile:
+                    del student['id']
+                    del student['user_id']
+                print(Student_profile)
+
+                response['Student_Data']=Student_profile
+                return Response(response, status=status_code)
+
 
         except Exception as e:
             status_code = status.HTTP_400_BAD_REQUEST

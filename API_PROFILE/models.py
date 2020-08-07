@@ -11,11 +11,7 @@ class UserProfile(models.Model):
     last_name = models.CharField(max_length=50, unique=False)
     phone_number = models.CharField(max_length=10, unique=True, null=False, blank=False)
     age = models.PositiveIntegerField(null=False, blank=False)
-    USER_CHOICES = (
-        ('T', 'Teacher'),
-        ('S', 'Student'),
-    )
-    user_type = models.CharField(max_length=1, choices=USER_CHOICES)
+    user_type = models.CharField(max_length=8,blank=False)
 
     class Meta:
         '''

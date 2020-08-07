@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d34f505f-ec0c-4abb-9cb8-86aa89c1e17e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_PROFILE/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_PROFILE/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_PROFILE/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_PROFILE/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_PROFILE/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_PROFILE/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/API_PROFILE/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_PROFILE/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_PROFILE/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/API_PROFILE/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_PROFILE/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_USER/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_USER/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_USER/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_USER/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/User_API/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_API/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_PROFILE/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -37,8 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_PROFILE/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state>
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -49,8 +43,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_USER/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_USER/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="22">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -71,7 +67,6 @@
         <entry file="file://$PROJECT_DIR$/API_USER/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -82,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/User_API/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+            <state relative-caret-position="22">
+              <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -121,14 +116,14 @@
         <option value="$PROJECT_DIR$/API_PROFILE/urls.py" />
         <option value="$PROJECT_DIR$/API_USER/models.py" />
         <option value="$PROJECT_DIR$/API_USER/views.py" />
-        <option value="$PROJECT_DIR$/API_PROFILE/models.py" />
-        <option value="$PROJECT_DIR$/API_PROFILE/views.py" />
         <option value="$PROJECT_DIR$/API_USER/serializers.py" />
         <option value="$PROJECT_DIR$/User_API/settings.py" />
+        <option value="$PROJECT_DIR$/API_PROFILE/models.py" />
+        <option value="$PROJECT_DIR$/API_PROFILE/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="945" />
     <option name="y" value="75" />
     <option name="width" value="980" />
@@ -212,7 +207,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828125" />
@@ -284,57 +279,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_PROFILE/models.py">
+    <entry file="file://$PROJECT_DIR$/API_USER/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+        <state>
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/API_PROFILE/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state>
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_PROFILE/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/API_USER/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/API_USER/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="22">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_USER/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User_API/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="22">
+          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
