@@ -55,14 +55,14 @@ class User(AbstractBaseUser):
 def password_reset_token_created(sender, instance, reset_password_token, *args, **kwargs):
 
     email_plaintext_message = "{}?token={}".format(reverse('password_reset:reset-password-request'), reset_password_token.key)
+    to_email =[reset_password_token.user.email]
+    from_email = "rt56277@gmail.com"
+    subject = "Password reset token from USER_API"
+    try:
+        send_mail(subject=subject, from_email=from_email, recipient_list=to_email, message=email_plaintext_message,
+              fail_silently=False)
+        print("mail send sucessfully")
+    except Exception as e:
+        print(e)
 
-    send_mail(
-        # title:
-        "Password Reset for {title}".format(title="Some website title"),
-        # message:
-        email_plaintext_message,
-        # from:
-        "noreply@somehost.local",
-        # to:
-        [reset_password_token.user.email]
-    )
+
