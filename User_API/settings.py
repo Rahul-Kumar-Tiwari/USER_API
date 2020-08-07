@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 INSTALLED_APPS = [
     'django.contrib.auth',
@@ -38,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'API_USER','rest_framework',
-    'API_PROFILE'
+    'API_PROFILE','django_rest_passwordreset'
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ WSGI_APPLICATION = 'User_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'UserDB',
+        'NAME': 'USER_DATA',
         'USER': 'postgres',
         'PASSWORD': 'rahul',
         'HOST': 'localhost',
